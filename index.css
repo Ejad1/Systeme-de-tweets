@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 10px;
+    transition: all .3s;
+}
+
+button:hover {
+    padding: 11px;
+    background-color: rgb(98, 178, 231);
+}
+
+.tweet {
+    background-color: #7efff5;
+    border-radius: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    width: fit-content;
+    min-width: 100px;
+}
+
+.tweet h3 {
+    text-align: center;
+}
+
+.container-tweets {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 10px;
+}
+
+.mesBoutons {
+    display: inline-block;
+}
+
+.mesBoutons .delete {
+    margin-left: 10px;
+    background: none;
+}
+
+.tweet-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 12px;
+    width: fit-content;
+}
